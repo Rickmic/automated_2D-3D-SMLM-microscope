@@ -12,7 +12,7 @@ Jupyter notebooks to calculate the transfection efficiency based on Tile scans f
  <b>SMLM part of the ht-Setup</b>
 </p>
 
-![Overview of the analysis workflow](assets/analysis_workflow.png)
+![Overview of the analysis workflow](assets/Principle_3D_whole_cell.png)
 
 
 
