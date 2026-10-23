@@ -12,7 +12,7 @@ Jupyter notebooks to calculate the transfection efficiency based on Tile scans f
  <b>SMLM part of the ht-Setup</b>
 </p>
 
-![SMLM-setup](https://github.com/Rickmic/Receptor_Quantification/blob/main/under_development/setup.png "SMLM part of the ht-Setup")
+![Overview of the analysis workflow](assets/analysis_workflow.png)
 
 
 
