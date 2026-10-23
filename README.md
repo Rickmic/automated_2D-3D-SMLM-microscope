@@ -1,11 +1,5 @@
-# Receptor_Quantification
-This repo contains different scripts for quantification of membrane receptors
-
-## Transfection_efficiency
-Jupyter notebooks to calculate the transfection efficiency based on Tile scans from a Nikon Ti-E System.
-
-## high throughput microscopy
-[NIS Elements macros](https://github.com/Rickmic/Receptor_Quantification/tree/main/high_throughput_microscopy/NIS_macro) and [Arduino scripts](https://github.com/Rickmic/Receptor_Quantification/tree/main/high_throughput_microscopy/Arduino) to control a high throughput dSTORM system with NIS Elements, NI-DAQ Cards and Arduino microcontroller.
+# Automated SMLM microscope
+Here we describe a custom build SMLM extension of a Nikon Ti-E microscope, for TIRF high throughput SMLM measurements. For fast screening an additional RCM 1 unit is attached to the left port of the microscope. The whole setup is controlled with NIS Elements extended by [NIS Elements macros](https://github.com/Rickmic/Receptor_Quantification/tree/main/high_throughput_microscopy/NIS_macro). Additional three Arduino Mega microcontrolers are attached to the microscope ([Arduino scripts](https://github.com/Rickmic/Receptor_Quantification/tree/main/high_throughput_microscopy/Arduino)). One Arduino controls the TIRF translational stage, and pulses the UV lasers. Another Arduino modulates the DPSS Lasers via RS232 and controls the Neutral density wheel attached to a servo motor. The third Arduino controls the costum build piezo slider system in the RCM box. All arduinos are connected to NIS elements via a NiDaq card and communicate with NIS elements over digital and analogue signals.
 
 
 <p align="center">
@@ -14,7 +8,8 @@ Jupyter notebooks to calculate the transfection efficiency based on Tile scans f
 
 ![Overview of the analysis workflow](assets/SMLM_setup_github.png)
 
-
+# Data analysis
+Additionally we provide python scripts to reconstruct objective scanned 3D SMLM data acquired with the 3D beampath of this microscope.
 
 
 
